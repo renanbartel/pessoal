@@ -1,26 +1,91 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>pagina pessoal de renan</title>
+    <title>Pagina Pessoal de Renan</title>
   </head>
+  <style>
+    *{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box
+    }
+    body{
+      font-family: Arial, helvetica, sans-serif;
+      background-color: #f4f4f4;
+      color: #333;
+      line-height: 1.6;
+      padding: 20px;
+    }
+    header{
+      background-color: #333;
+      color: #fff;
+      padding: 10px 0;
+text-align: center;
+    }
+    header h1{
+      margin-bottom: 10px;
+    }
+    nav ul{
+      list-style: none;
+    }
+    nav al li{
+      display: inline;
+      margin: 0 10px;
+    }
+nav ul li a{
+  color: #fff;
+  text-decoration: none;
+}
+section{
+  margin: 20px 0;
+}
+section{
+  margin: 20px 0;
+}
+section#sobre,
+section#projetos,
+section#contatos {
+background-color: #ddd8d8;
+padding: 20px;
+border-radius: 8px;
+box-sizing: 0 0 10px rgba(0,0,0,0.1);
+}
+footer{
+  text-align: center;
+  margin-top: 20px;
+}
+  </style>
 <body>
     <header>
-        <h1>renan alves bartel</h1>
+        <h1>Renan Bartel</h1>
         <nav>
             <ul>
                 <li><a href="#sobre">sobre mim</a></li>
-                <li><a href="#prejetos">projetos</a></li>
+                <li><a href="#projetos">projetos</a></li>
                 <li><a href="#contato">contato</a></li>
             </ul>
         </nav>
-    </header>
-    <section id="sobre">
+      </header>
+    <section id="sobre">   
     <h2>sobre mim</h2>
-<p>sou o renan alves, tenho 13 anos, sou um helicoptero de combate e sou catolico e corinthiano </p>
+    <p>sou o renan alves, tenho 13 anos, sou catolico e corinthiano </p>
     </section>
     <section id="projetos">
-      <h2>"projetos" </h2>
-      <p>ser designer de imgens e videos freelancer</p>
+      <h2>projetos </h2>
+      <ul>
+        <li>projeto 1:<a href="#">descrição do projeto 1</a></li>
+        <li>projeto 2:<a href="#">descrição do projeto 2</a></li>
+        <li>projeto 3:<a href="#">descrição do projeto 3</a></li>
+        <li>projeto 4:<a href="#">descrição do projeto 4</a></li>
+        <li>projeto 5:<a href="#">descrição do projeto 5</a></li>
+      </ul>
     </section>
+    <section id="contato">   
+    <h2>contato</h2>
+    <p>entre em contato comigo via <a href="mailto:renan_bartel@estudante.sesisenai.org.br">renan_bartel@estudante.sesisenai.org.br</a></p>
+    </section>
+<footer>
+  <p>&copy; @2025- Renan</p>
+</footer>
 </body>
 </html>
